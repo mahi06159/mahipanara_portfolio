@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Digital Portfolio — Mahi Panara</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg-orbs" aria-hidden="true">
+      <span class="orb orb--1" data-speed="-0.15" style="--z:-120px;"></span>
+      <span class="orb orb--2" data-speed="0.08" style="--z:-80px;"></span>
+      <span class="orb orb--3" data-speed="-0.05" style="--z:-40px;"></span>
+    </div>
+    <header class="site-header" aria-label="Primary">
+      <nav id="site-nav" class="nav">
+        <div class="container nav__inner">
+          <a class="brand" href="#home" aria-label="Go to home">Mahi Panara</a>
+
+          <button class="nav__toggle" aria-label="Toggle navigation" aria-expanded="false">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+
+          <ul class="nav__links" role="menubar">
+            <li role="none"><a role="menuitem" class="nav__link active" href="#home">Home</a></li>
+            <li role="none"><a role="menuitem" class="nav__link" href="#about">About</a></li>
+            <li role="none"><a role="menuitem" class="nav__link" href="#resume">Resume</a></li>
+            <li role="none"><a role="menuitem" class="nav__link" href="#projects">Projects</a></li>
+            <li role="none"><a role="menuitem" class="nav__link" href="#skill-mastery">Skill Mastery</a></li>
+            <li role="none"><a role="menuitem" class="nav__link" href="#leadership">Leadership</a></li>
+            <li role="none"><a role="menuitem" class="nav__link" href="#ethics">Ethics</a></li>
+            <li role="none"><a role="menuitem" class="nav__link" href="#aspirations">Aspirations</a></li>
+            <li role="none"><a role="menuitem" class="nav__link" href="#conclusion">Conclusion</a></li>
+            <li role="none"><a role="menuitem" class="nav__link" href="#testimonials">Testimonials</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home" class="section hero" aria-label="Home">
+      <div class="container hero__grid">
+        <div class="hero__content" data-aos="fade-up">
+          <p class="eyebrow">Welcome to my digital portfolio</p>
+          <h1>Mahi Panara</h1>
+          <p class="subtitle">Computer Science | PDPU</p>
+          <span class="meta"></span>
+          <h2 class="tagline">
+            <span id="typewriter" class="typewriter" aria-live="polite">Crafting meaningful, user‑centric solutions.</span>
+          </h2>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#projects">Explore Projects</a>
+            <a class="btn btn--ghost" href="#about">Learn More</a>
+          </div>
+        </div>
+        <div class="hero__media" data-aos="fade-up" data-aos-delay="100">
+          <img src="Untitled design.jpg" alt="IMG_7943.heic" />
+        </div>
+      </div>
+    </section>
+    <section id="about" class="section" aria-label="About">
+      <div class="container" data-aos="fade-up">
+        <h2>My Learning Philosophy</h2>
+        <p>
+          Driven by a passion for solving complex challenges, I have dedicated my undergraduate journey to translating code into solutions. From developing robust projects to co-authoring a research paper, my focus has been on practical application and inquiry. My next step is a Master's degree, where I aim to build the specialized knowledge required to tackle future-defining technological problems.     </p>
+        <p>
+          I learn by building. My method is to deconstruct complex topics into hands-on projects, a process driven by curiosity, resilience, and a firm belief in collaborative innovation.  </p>
+      </div>
+    </section>
+
+    <section id="resume" class="section" aria-label="Resume and CV">
+      <div class="container" data-aos="fade-up">
+        <h2>Resume / CV</h2>
+
+        <div class="resume__grid">
+          <div class="resume__col">
+            <h3><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+            <ul class="timeline">
+              <li>
+                <div class="timeline__dot"></div>
+                <div class="timeline__content">
+                  <strong>Computer Science Engineering</strong> — Pandit Deendayal Energy University
+                  <span class="timeline__meta">2023 – 2027</span>
+                  <p>Current CGPA- 9</p>
+                </div>
+              </li>
+              <li>
+                <div class="timeline__dot"></div>
+                <div class="timeline__content">
+                  <strong>Higher Secondary School</strong> — Dholakiya School
+                  <span class="timeline__meta">2021 – 2023</span>
+                  <p>Percentage- 99.02%, JEE- 94%</p>
+                </div>
+              </li>
+            </ul>
+
+            <h3><i class="fa-solid fa-briefcase"></i> Work Experience</h3>
+            <ul class="timeline">
+              <li>
+                <div class="timeline__dot"></div>
+                <div class="timeline__content">
+                  <strong>Software Developer</strong> — StaxTech
+                  <span class="timeline__meta">May 2025 – Jun 2025</span>
+                  <ul>
+                    <li>Developing Software Program</li>
+                    <li>I learned how theory apply to practical outcomes.</li>
+                    <li>Technologies: Frontend, Java</li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <div class="timeline__dot"></div>
+                <div class="timeline__content">
+                  <strong>Full-stack Developer</strong> — Pregrad
+                  <span class="timeline__meta">Mar 2023 – May 2024</span>
+                  <ul>
+                    <li>Developing websites</li>
+                    <li>I learned how theory apply to practical outcomes.</li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="resume__col">
+            <h3><i class="fa-solid fa-screwdriver-wrench"></i> Skills</h3>
+            <h4 class="muted-sub">Technical Skills</h4>
+            <div class="skills__bars" data-aos="fade-up">
+              <div class="skillbar" data-level="90">
+                <div class="skillbar__label"><i class="fa-brands fa-js"></i> Python</div>
+                <div class="skillbar__value">0%</div>
+                <div class="skillbar__track"><div class="skillbar__bar"></div></div>
+              </div>
+              <div class="skillbar" data-level="85">
+                <div class="skillbar__label"><i class="fa-brands fa-python"></i> SQL</div>
+                <div class="skillbar__value">0%</div>
+                <div class="skillbar__track"><div class="skillbar__bar"></div></div>
+              </div>
+              <div class="skillbar" data-level="80">
+                <div class="skillbar__label"><i class="fa-brands fa-react"></i> Java</div>
+                <div class="skillbar__value">0%</div>
+                <div class="skillbar__track"><div class="skillbar__bar"></div></div>
+              </div>
+              <div class="skillbar" data-level="75">
+                <div class="skillbar__label"><i class="fa-solid fa-database"></i> Machine Learning</div>
+                <div class="skillbar__value">0%</div>
+                <div class="skillbar__track"><div class="skillbar__bar"></div></div>
+              </div>
+            </div>
+            <h4 class="muted-sub">Core Tools</h4>
+            <div class="skills__grid">
+              <div class="skill" title="Programming">
+                <i class="fa-solid fa-code"></i>
+                <span>Programming</span>
+              </div>
+              <div class="skill" title="Data Analysis">
+                <i class="fa-solid fa-chart-line"></i>
+                <span>Data Analysis</span>
+              </div>
+              <div class="skill" title="UI/UX">
+                <i class="fa-solid fa-object-group"></i>
+                <span>UI/UX</span>
+              </div>
+              <div class="skill" title="Cloud">
+                <i class="fa-solid fa-cloud"></i>
+                <span>Cloud</span>
+              </div>
+              <div class="skill" title="Teamwork">
+                <i class="fa-solid fa-people-group"></i>
+                <span>Teamwork</span>
+              </div>
+              <div class="skill" title="Communication">
+                <i class="fa-solid fa-comments"></i>
+                <span>Communication</span>
+              </div>
+            </div>
+            <h4 class="muted-sub">Soft Skills</h4>
+            <ul class="chips">
+              <li class="chip"><i class="fa-solid fa-people-group"></i> Teamwork</li>
+              <li class="chip"><i class="fa-solid fa-comments"></i> Communication</li>
+              <li class="chip"><i class="fa-solid fa-lightbulb"></i> Problem Solving</li>
+              <li class="chip"><i class="fa-solid fa-clock"></i> Time Management</li>
+              <li class="chip"><i class="fa-solid fa-handshake"></i> Leadership</li>
+            </ul>
+
+            <h3><i class="fa-solid fa-certificate"></i> Certifications</h3>
+            <ul class="bulleted">
+              <li>Progrramming with Python — By Harward (2025)</li>
+              <li>Programming using Java — By Infosys (2025)</li>
+            </ul>
+
+            <h3><i class="fa-solid fa-award"></i> Awards</h3>
+            <ul class="bulleted">
+              <li>Recognized for exceptional contributions and leadership as a member of the Mind Ripple.</li>
+            </ul>
+
+            <h3><i class="fa-solid fa-hand-holding-heart"></i> Volunteer Experience</h3>
+            <ul class="bulleted">
+              <li>Guided a group of first-year students, providing academic support and helping them adapt to college life.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section" aria-label="Projects">
+      <div class="container" data-aos="fade-up">
+        <h2>Interdisciplinary Projects & Research</h2>
+        <div class="cards__grid">
+          <article class="card project" data-aos="fade-up">
+            <img src="unnamed.jpg" alt="Project image placeholder" />
+           <div class="card__body">
+            <h4>Mailbox</h4>
+              <p>CS50 Mailbox is a full-stack web email client built with Python (Flask) and SQLite. The application provides secure user registration with password hashing, session-based login, and the ability to compose, send, and manage messages. The project features a responsive frontend built with Bootstrap and Jinja2, demonstrating a complete client-server architecture.</p>
+              <a class="btn btn--secondary" href="#" aria-label="Learn more about Project Title One">Learn More</a>
+            </div>
+          </article>
+          <article class="card project" data-aos="fade-up" data-aos-delay="100">
+            <img src="unnamed-3.jpg" alt="Project image placeholder" />
+            <div class="card__body">
+              <h4>TechniCart</h4>
+              <p>This E-Commerce Website is a full-stack web application built with the MERN stack (MongoDB, Express.js, React.js, and Node.js). The application allows users to register and log in, browse a dynamic product catalog, manage a shopping cart, and complete a secure checkout process. The project features a decoupled client-server architecture, a responsive React frontend, and stateless user authentication using JSON Web Tokens (JWT).</p>
+              <a class="btn btn--secondary" href="#" aria-label="Learn more about Project Title Two">Learn More</a>
+            </div>
+          </article>
+          <article class="card project" data-aos="fade-up" data-aos-delay="200">
+            <img src="unnamed-2.jpg" alt="Project image placeholder" />
+            <div class="card__body">
+              <h4>Personal Finance Dashboard</h4>
+              <p>This Personal Finance Dashboard is a command-line tool built with Python to provide rapid financial insights. The program reads and parses a CSV file, automatically categorizes spending, and generates a clear summary of total income and expenses. The project emphasizes core Python skills, including file I/O, data handling, and robust unit testing with pytest.</p>
+              <a class="btn btn--secondary" href="#" aria-label="Learn more about Project Title Three">Learn More</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skill-mastery" class="section" aria-label="Skill Mastery">
+      <div class="container" data-aos="fade-up">
+        <h2>Advanced Skill Development & Mastery</h2>
+        <div class="mastery__grid">
+          <div class="mastery__item" data-aos="fade-up">
+            <div class="mastery__header">
+              <i class="fa-solid fa-database"></i>
+              <h4>Data Engineering</h4>
+            </div>
+            <p>Pipeline design, ETL orchestration, and scalable storage patterns.</p>
+            <pre><code>// Example: Transforming records
+const normalized = records
+  .filter(r => r.isValid)
+  .map(r => ({ id: r.id, ts: new Date(r.timestamp) }));
+</code></pre>
+          </div>
+
+          <div class="mastery__item" data-aos="fade-up" data-aos-delay="100">
+            <div class="mastery__header">
+              <i class="fa-solid fa-shield-halved"></i>
+              <h4>Security Engineering</h4>
+            </div>
+            <p>Threat modeling, secure defaults, and defense-in-depth strategies.</p>
+            <blockquote>
+              “Demonstrated rigor in code reviews, implementing least-privilege, and
+              eliminating injection flaws across services.”
+            </blockquote>
+          </div>
+
+          <div class="mastery__item" data-aos="fade-up" data-aos-delay="200">
+            <div class="mastery__header">
+              <i class="fa-solid fa-chart-pie"></i>
+              <h4>Analytics & Experimentation</h4>
+            </div>
+            <p>A/B testing, metric design, and statistical validation for decisions.</p>
+            <pre><code>// Example: Confidence interval (simplified)
+function ci95(stdErr) { return 1.96 * stdErr; }
+</code></pre>
+          </div>
+
+          <div class="mastery__item" data-aos="fade-up" data-aos-delay="300">
+            <div class="mastery__header">
+              <i class="fa-solid fa-diagram-project"></i>
+              <h4>Systems Design</h4>
+            </div>
+            <p>Tradeoffs, reliability patterns, and graceful degradation under load.</p>
+            <blockquote>
+              “Designed a resilient event-driven system with backpressure handling
+              and explicit timeouts across boundaries.”
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="leadership" class="section" aria-label="Leadership and Collaboration">
+      <div class="container" data-aos="fade-up">
+        <h2>Collaborative & Leadership Experiences</h2>
+        <div class="accordion">
+          <details>
+            <summary>
+              <strong>Full stack </strong> — Organization Name
+              <span class="summary__meta">Year – Year</span>
+            </summary>
+            <div class="accordion__content">
+              <h4>Role & Responsibilities</h4>
+              <ul>
+                <li>Coordinated cross-functional project milestones and deliverables.</li>
+                <li>Mentored peers and facilitated technical workshops.</li>
+              </ul>
+              <h4>Achievements</h4>
+              <ul>
+                <li>Improved delivery velocity by X% through process optimization.</li>
+                <li>Introduced peer feedback loops to elevate quality.</li>
+              </ul>
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              <strong>Project Coordinator</strong> — Organization Name
+              <span class="summary__meta">Year – Year</span>
+            </summary>
+            <div class="accordion__content">
+              <h4>Role & Responsibilities</h4>
+              <ul>
+                <li>Owned communication with stakeholders and external partners.</li>
+                <li>Maintained project dashboards and risk registers.</li>
+              </ul>
+              <h4>Achievements</h4>
+              <ul>
+                <li>Delivered key initiative under budget and ahead of schedule.</li>
+                <li>Standardized documentation for repeatable knowledge transfer.</li>
+              </ul>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section> -->
+
+    <section id="ethics" class="section" aria-label="Ethics and Global Awareness">
+      <div class="container" data-aos="fade-up">
+        <h2>Global Awareness & Ethical Considerations</h2>
+        <p>
+          I believe that building technology is not just about writing code, but about making responsible choices that shape our future. For me, this means championing ethical principles at every stage of development. I am committed to designing systems with privacy by design, ensuring algorithms are fair and unbiased, and building products that are accessible to everyone, regardless of ability. I also consider the sustainability of technology, aiming to write efficient code that respects our planet's resources.
+        </p>
+        <p>
+          Furthermore, I recognize that the most impactful solutions must be globally aware and locally relevant. Growing up in a diverse country like India has taught me the importance of considering cultural nuances, economic constraints like low bandwidth, and varying regulatory landscapes. My goal is to build technology that is not only powerful but also equitable, secure, and beneficial for a global society.
+        </p>
+      </div>
+    </section>
+
+    <section id="aspirations" class="section" aria-label="Future Aspirations">
+      <div class="container" data-aos="fade-up">
+        <h2>Future Aspirations</h2>
+        <div class="cards__grid">
+          <article class="card goal" data-aos="fade-up">
+            <div class="card__body">
+              <h4>Short-Term Goals</h4>
+              <ul>
+                <li>Successfully complete my Bachelor's degree with a strong focus on Artificial Intelligence.</li>
+                <li>Secure admission to a competitive Master's program to deepen my expertise and research capabilities.</li>
+                <li>Gain practical industry experience through a challenging software development internship.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="card goal" data-aos="fade-up" data-aos-delay="100">
+            <div class="card__body">
+              <h4>Medium-Term Goals</h4>
+              <ul>
+                <li>Excel in my Master's program, contributing to a significant research thesis or capstone project.</li>
+                <li>Take ownership of a core feature or component in a full-time engineering role post-graduation.</li>
+                <li>Become an active contributor to an open-source project that aligns with my professional interests.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="card goal" data-aos="fade-up" data-aos-delay="200">
+            <div class="card__body">
+              <h4>Long-Term Vision</h4>
+              <ul>
+                <li>Lead a research or engineering team dedicated to solving high-impact problems in my field.</li>
+                <li>Build solutions that improve lives at scale.</li>
+                <li>Contribute to the advancement of technology through novel patents, influential research, or building foundational systems.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="conclusion" class="section" aria-label="Conclusion and Self-Assessment">
+      <div class="container" data-aos="fade-up">
+        <h2>Conclusion & Self-Assessment</h2>
+        <div class="swot__grid">
+          <div class="swot swot--strengths">
+            <h4>Strengths</h4>
+            <ul>
+              <li>Analytical problem-solving</li>
+              <li>Adaptability and growth mindset</li>
+              <li>Clear communication</li>
+            </ul>
+          </div>
+          <div class="swot swot--weaknesses">
+            <h4>Weaknesses</h4>
+            <ul>
+              <li>Perfectionism</li>
+              <li>Public speaking anxiety</li>
+              <li>Limited domain experience (evolving)</li>
+            </ul>
+          </div>
+          <div class="swot swot--opportunities">
+            <h4>Opportunities</h4>
+            <ul>
+              <li>Emerging technologies and tools</li>
+              <li>Mentorship and networking</li>
+              <li>Interdisciplinary collaborations</li>
+            </ul>
+          </div>
+          <div class="swot swot--threats">
+            <h4>Threats</h4>
+            <ul>
+              <li>Rapid industry changes</li>
+              <li>Resource constraints</li>
+              <li>Global competition</li>
+            </ul>
+          </div>
+        </div>
+        <p class="conclusion__note">
+          Final reflections: summarize your growth, key takeaways, and how you plan to
+          continue improving your craft and contributing to your community.
+        </p>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section" aria-label="Testimonials">
+      <div class="container" data-aos="fade-up">
+        <h2>Testimonials</h2>
+        <div class="slider" aria-roledescription="carousel">
+          <div class="slides" role="group">
+            <article class="slide" aria-label="Testimonial 1">
+              <blockquote>
+                " Possesses a remarkable ability to tackle complex technical challenges. Their code is not only functional but also clean and efficient."
+              </blockquote>
+              <p class="cite">-Dr. Shilpa, Professor of Computer Science</p>
+            </article>
+            <article class="slide" aria-label="Testimonial 2">
+              <blockquote>
+               "An exceptional team player whose positive attitude and strong communication skills elevate the entire group. A pleasure to work with."</blockquote>
+              <p class="cite">—Dr. Nishant Doshi, Professor of Computer Science</p>
+            </article>
+            <article class="slide" aria-label="Testimonial 3">
+              <blockquote>
+                “Demonstrates a rare intellectual curiosity and a genuine passion for learning. They consistently go beyond the scope of the assignment to truly master the material.”
+              </blockquote>
+              <p class="cite">-Dr Yogesh Kumar, Research Mentor</p>
+            </article>
+          </div>
+          <div class="slider__controls">
+            <button class="slider__btn slider__btn--prev" aria-label="Previous testimonial">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button class="slider__btn slider__btn--next" aria-label="Next testimonial">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+          <div class="slider__dots" role="tablist" aria-label="Testimonial slides"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container">
+        <ul class="social">
+          <li><a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a></li>
+          <li><a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a></li>
+          <li><a href="#" aria-label="Email"><i class="fa-solid fa-envelope"></i></a></li>
+        </ul>
+        <p>© <span id="year"></span> Mahi Panara. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js" defer></script>
+    <script src="script.js" defer></script>
+  </body>
+</html>
